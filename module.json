@@ -1,5 +1,5 @@
 {
-  "name": "the-longnight-before-krampus",
+  "id": "the-longnight-before-krampus",
   "title": "The Longnight Before Krampus",
   "description": "The Longnight Before Krampus is a holiday themed oneshot for Pathfinder Second Edition. Designed for 1st level characters, our adventurers find themselves in the town of Tahm's Prarie, where, despite the warm fire and festivities, something darker than the night looms...",
   "version": "v1.0.0",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Sam Marine",
-      "url": "https://github.com/LebombJames"
+      "url": "https://github.com/LebombJames",
       "discord": "LebombJames#1611"
     },
     {
@@ -69,5 +69,5 @@
         }
       }
     ]
-  },
+  }
 }
