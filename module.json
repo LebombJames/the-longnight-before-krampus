@@ -49,8 +49,8 @@
         }
     ],
     "url": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/",
-    "manifest": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/module.json",
-    "download": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/longnight.zip",
+    "manifest": "https://raw.githubusercontent.com/LebombJames/the-longnight-before-krampus/main/module.json",
+    "download": "https://github.com/LebombJames/the-longnight-before-krampus/archive/v1.2.zip",
     "esmodules": [
         "./scripts/longnight.mjs"
     ],
