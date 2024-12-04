@@ -1,73 +1,83 @@
 {
-  "id": "the-longnight-before-krampus",
-  "title": "The Longnight Before Krampus",
-  "description": "The Longnight Before Krampus is a holiday themed oneshot for Pathfinder Second Edition. Designed for 1st level characters, our adventurers find themselves in the town of Tahm's Prarie, where, despite the warm fire and festivities, something darker than the night looms...",
-  "version": "v1.0.2",
-  "authors": [
-    {
-      "name": "Tony S",
-      "url": "https://www.freelancelotgames.com",
-      "discord": "FacelessMan#9707"
-    },
-    {
-      "name": "Ediwir"
-    },
-    {
-      "name": "Helen Savore"
-    },
-    {
-      "name": "Rico the Bold"
-    },
-    {
-      "name": "Cameron Lyndon"
-    },
-    {
-      "name": "Christopher Yang"
-    },
-    {
-      "name": "Sam Marine",
-      "url": "https://github.com/LebombJames",
-      "discord": "LebombJames#1611"
-    },
-    {
-      "name": "Derryzumi",
-      "url": "https://www.dicewillroll.com",
-      "discord": "derryzumi#6133"
-    },
-    {
-      "name": "Shawn Pommier"
-    }
-  ],
-  "packs": [
-    {
-      "label": "The Longnight Before Krampus - Adventure",
-      "name": "the-longnight-before-krampus-adventure",
-      "path": "./packs/the-longnight-before-krampus-adventure.db",
-      "system": "pf2e",
-      "type": "Adventure"
-    }
-  ],
-  "url": "https://www.pathfinderinfinite.com/product/420465/The-Longnight-Before-Krampus",
-  "manifest": "https://raw.githubusercontent.com/LebombJames/the-longnight-before-krampus/main/module.json",
-  "download": "https://github.com/LebombJames/the-longnight-before-krampus/archive/v1.0.2.zip",
-  "styles": [
-    "./styles.css"
-  ],
-  "compatibility": {
-    "minimum": "10",
-    "verified": "10.291",
-    "maximum": "10"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "4.5.1"
+    "id": "the-longnight-before-krampus",
+    "title": "The Longnight Before Krampus",
+    "description": "The Longnight Before Krampus is a holiday themed oneshot for Pathfinder Second Edition. Designed for 1st level characters, our adventurers find themselves in the town of Tahm's Prarie, where, despite the warm fire and festivities, something darker than the night looms...",
+    "version": "v1.2",
+    "authors": [
+        {
+            "name": "Tony S",
+            "url": "https://www.freelancelotgames.com",
+            "discord": "FacelessMan#9707"
+        },
+        {
+            "name": "Ediwir"
+        },
+        {
+            "name": "Helen Savore"
+        },
+        {
+            "name": "Rico the Bold"
+        },
+        {
+            "name": "Cameron Lydon"
+        },
+        {
+            "name": "Christopher Yang"
+        },
+        {
+            "name": "Sam Marine",
+            "url": "https://github.com/LebombJames",
+            "discord": "LebombJames#1611"
+        },
+        {
+            "name": "Derryzumi",
+            "url": "https://www.dicewillroll.com",
+            "discord": "derryzumi#6133"
+        },
+        {
+            "name": "Shawn Pommier"
         }
-      }
-    ]
-  }
+    ],
+    "packs": [
+        {
+            "label": "The Longnight Before Krampus - Adventure",
+            "name": "the-longnight-before-krampus-adventure",
+            "path": "./packs/the-longnight-before-krampus-adventure",
+            "banner": "modules/the-longnight-before-krampus/img/art/banner.webp",
+            "system": "pf2e",
+            "type": "Adventure"
+        }
+    ],
+    "url": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/",
+    "manifest": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/module.json",
+    "download": "http://www.freelancelotgames.com/wp-content/themes/medieval/longnight/longnight.zip",
+    "esmodules": [
+        "./scripts/longnight.mjs"
+    ],
+    "styles": [
+        "./scripts/styles.css"
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11.315"
+    },
+    "media": [
+        {
+            "type": "setup",
+            "caption": "The Longnight Before Krampus",
+            "thumbnail": "modules/the-longnight-before-krampus/img/art/banner.webp"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "5.8.3"
+                }
+            }
+        ]
+    }
 }
